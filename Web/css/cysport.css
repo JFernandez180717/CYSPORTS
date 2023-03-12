@@ -1,0 +1,59 @@
+.fuente-cysport {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+}
+
+.bg-cysport{
+  background-color: #bf7879;
+}
+
+.btn-cysports{
+  background-color: #bf7879;
+  color: white;
+}
+
+.content{
+  min-height: 100vh;
+  width: 100%;
+}
+
+.sidebar li.active{
+  background: #eee;
+  border-radius: 8px;
+}
+
+.sidebar li a:hover{
+  color: #7c4c4d;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover{
+  color: #a56768;
+}
+
+.sidebar li a{
+  color: white;
+}
+
+#side_nav{
+  background-color: #bf7879;
+  min-width: 250px;
+  max-width: 250px;
+  transition: all 0.3s;
+}
+
+#btn-cy:hover{
+  background-color: #af6d6e;
+  color: white;
+}
+
+@media(max-width: 767px){
+  #side_nav{
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  #side_nav.active{
+    margin-left: 0;
+  }
+}
