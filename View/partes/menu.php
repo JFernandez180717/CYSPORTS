@@ -20,7 +20,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-block p-2" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-hdd color-items-nav"></i>
+          <i class="fa-solid fa-cubes-stacked"></i>
           <span class="fuente-cysport color-items-nav">Material</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
@@ -31,7 +31,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-block p-2" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-gavel"></i>
+          <i class="fa-solid fa-person-digging"></i>
           <span class="fuente-cysport">Operacion</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
@@ -42,7 +42,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-block p-2" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-uniregistry"></i>
+          <i class="fa-solid fa-ruler-combined"></i>
           <span class="fuente-cysport">Unidad Medida</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
@@ -66,9 +66,9 @@
         <!-- Navbar -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pe-5">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-                Usuario
+              <i class="fa-solid fa-user-tie"></i> Usuario
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Actualizar datos</a></li>
